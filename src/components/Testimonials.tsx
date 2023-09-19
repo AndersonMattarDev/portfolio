@@ -15,7 +15,7 @@ export function Testimonials(){
             <blockquote className="mb-6">
                 <p className="2xl text-gray-900">
                     Anderson criou em sua web page uma vitrine virtual e administra meu Instagram 
-                    conercial, estou gostando muito do trabalho, a página em seu site ficou maravilhosa e as 
+                    comercial, estou gostando muito do trabalho, a página em seu site ficou maravilhosa e as 
                     postagens no instagram estão um show. Recomendo a todos que desejam um trabalho profissional e 
                     sério.
                 </p>
