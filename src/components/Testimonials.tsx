@@ -29,7 +29,7 @@ export function Testimonials(){
                 <div className="flex items-center divide-x-2 divide-gray-200">
                     <div className="pr-3 font-medium xt-gray-900">Cida Moreno</div>
                     <div className="pl-3 text-sm font-light text-gray-500">
-                        @deliciasdacidasalgados
+                    <a href="https://www.instagram.com/deliciasdacidasalgados/">@deliciasdacidasalgados</a>  
                     </div>
                 </div>
             </figcaption>

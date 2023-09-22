@@ -25,7 +25,7 @@ export function Hero(){
                     <div className="flex items-center justify-center md:justify-start gap-2">
                         <a href="mailto:andmat7745@gmail.com"  className="underline font-bold text-white">Fale Comigo</a>
                         <span className="italic text-gray-500">ou</span>
-                        <a href="./docs/curriculoAnderson.pdf" className="button text-gray-500 hover:text-gray-900 flex items-center gap-2">
+                        <a href="./docs/curriculoAndersonMattarAdmDev.pdf" className="button text-gray-500 hover:text-gray-900 flex items-center gap-2">
                             <HiDownload />
                             Baixe meu CV
                         </a>
