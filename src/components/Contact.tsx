@@ -25,7 +25,7 @@ export function Contact() {
     "service_hyw1vxq",
     "template_ffzwchq",
     form.current,
-    "ZbNkzLi_1qXP2zzt1"
+    "P67QonVJk7Y6lEdUB"
     )
     .then(
     () => {
