@@ -8,17 +8,20 @@ import {
 } from "react-icons/hi2";
 
 export function Contact() {
-   const form = useRef<HTMLFormElement>(null)
-   const [loading, setLoading] = useState(false)
-   const [success, setSuccess] = useState(false)
-   const [error, setError] = useState(false)
+   const form = useRef<HTMLFormElement>(null);
+   const [loading, setLoading] = useState(false);
+   const [success, setSuccess] = useState(false);
+   const [error, setError] = useState(false);
+   const [fullName, setFullName] = useState('');
+   const [email, setEmail] = useState('');
+   const [message, setMessage] = useState('');
 
    const sendEmail = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
+    event.preventDefault();
 
     if(!form.current) return
 
-    setLoading(true)
+    setLoading(true);
 
     emailjs
     .sendForm(
@@ -29,8 +32,16 @@ export function Contact() {
     )
     .then(
     () => {
-      setSuccess(true)
-      setLoading(false)
+      setSuccess(true);
+      setLoading(false);
+      //Limpa os campos do formulário após o envio
+      setFullName('');
+      setEmail('');
+      setMessage('');
+      // Reverta o estado de sucesso após 5 segundos (5000 ms)
+          setTimeout(() => {
+            setSuccess(false);
+          }, 5000);
     },
     (error) => {
       setError(true)
@@ -90,6 +101,8 @@ export function Contact() {
                   name="message"
                   className="h-36 w-full rounded-lg border border-white bg-transparent p-2 outline-none"
                   required
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                 />
               </div>
 
@@ -107,6 +120,8 @@ export function Contact() {
                     name="fullName"
                     id="fullName"
                     required
+                    value={fullName}
+                    onChange={(e) => setFullName(e.target.value)}
                   />
                 </div>
                 <div className="flex-grow">
@@ -122,6 +137,8 @@ export function Contact() {
                     name="email"
                     id="email"
                     required
+                     value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
               </div>
@@ -133,7 +150,7 @@ export function Contact() {
                   disabled={loading}
                 >
                   {loading && <FaSpinner className="h-4 w-4 animate-spin" />}
-                  {success && <HiCheckCircle className="h-4 w-4" />}
+                  {success && <HiCheckCircle className="h-4 w-4" />}  
                   Enviar mensagem
                 </button>
                 
