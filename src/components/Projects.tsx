@@ -17,10 +17,10 @@ export function Projects(){
       colSpan: "col-span-1 md:col-span-1",
     },
     {
-      title: "Site All Tech Solutions - Contatos",
-      description: "Um projeto simples porém criado com muito esforçoe estudo",
+      title: "Site Fish Caiaques Ecoturismo de Bertioga - SP - Contatos",
+      description: "Primeiro projeto freelancer e cliente satisfeito",
       image: "images/mockup3.png",
-      link: "https://alltechsolutions.netlify.app/",
+      link: "https://fishcaiaquesecoturismo.netlify.app/",
       colSpan: "col-span-1 md:col-span-1",
     },
   ]
