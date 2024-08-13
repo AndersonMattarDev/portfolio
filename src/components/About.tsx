@@ -31,7 +31,7 @@ export function About() {
                         <td className="font-headline font-bold uppercase text-blue-900">
                             Idade:
                         </td>
-                        <td>46</td>
+                        <td>47</td>
                     </tr>
                     <tr>
                         <td className="font-headline font-bold uppercase text-blue-900">
