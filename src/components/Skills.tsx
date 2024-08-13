@@ -14,7 +14,10 @@ export function Skills(){
         },
         {
           name: "Curso superior em Empreendedorismo | Universidade Unopar/Pitagoras"
-        }
+        },
+        {
+            name: "Curso superior em Sistemas para Internet | Faculdade Estácio"
+          }        
     ]
 
     const skills = [
@@ -29,9 +32,19 @@ export function Skills(){
             level:70,
         },
         {
+            name: "PHP",
+            icon: "images/phpLogo.svg",
+            level:90,
+        },
+        {
             name: "React.js",
             icon: "images/icons8-react.png",
             level:90,
+        },
+        {
+            name: "Python",
+            icon: "images/pythonLogo.svg",
+            level:70,
         },
         {
             name: "Node.js",
@@ -55,7 +68,7 @@ export function Skills(){
                 </span>
             </h2>
             <p className="relative text-sm text-gray-700">
-                Front-End Developer | React.js | Node.js | JavaScript | TypeScript | HTML5 | CSS3
+                Front-End Developer | React.js | Node.js | JavaScript | TypeScript | HTML5 | CSS3 | Python | PHP | 
                 | Marketing Digital | Srum | Agile
             </p>
             <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />

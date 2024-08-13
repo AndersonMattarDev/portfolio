@@ -9,7 +9,7 @@ export function Services(){
         {
             title: "Web",
             description: 
-              "Desenvolvimento de sites e sistemas web estáticos e dinâmicos com React.js, Next.js, HTML5 e CSS3",
+              "Desenvolvimento de sites e sistemas web estáticos e dinâmicos com React.js, Next.js, HTML5, CSS3, PHP e Python ",
             icon: <HiComputerDesktop className="h-12 w-12"/>,
         },
         {

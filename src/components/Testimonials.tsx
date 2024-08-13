@@ -34,6 +34,30 @@ export function Testimonials(){
                 </div>
             </figcaption>
         </figure>
+        <br /><br />
+        <figure>
+            <FaQuoteLeft className="h-8 w-8 text-gray-600" />
+            <blockquote className="mb-6">
+                <p className="2xl text-gray-900">
+                    A página criada por Anderson para minha agência ficou maravilhosa, nossos aventureiros adoraram,
+                    e seu suporte é muito bom, o instagram está ficando com nossa cara. Super recomendo os serviços 
+                    deste profissional incrível!!!
+                </p>
+            </blockquote>
+            <figcaption className="flex items-center justfy-center gap-2">
+                <img 
+                className="h-6 w-6 rounded-full" 
+                src="images/mockup3.png" 
+                alt="Fish Caiaques - Bertioga" 
+                />
+                <div className="flex items-center divide-x-2 divide-gray-200">
+                    <div className="pr-3 font-medium xt-gray-900">Fish Caiaques</div>
+                    <div className="pl-3 text-sm font-light text-gray-500">
+                    <a href="https://www.instagram.com/fishcaiaques1/">@fichcaiaques1</a>  
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
     </section>
     )
 }
