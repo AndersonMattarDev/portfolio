@@ -39,7 +39,7 @@ export function About() {
                         </td>
                         <td>
                             <a href="tel:+5532984638048" className="underline hover:text-blue-800">
-                            +55 32 98463-8048
+                            +55 32 98424-0038
                             </a>
                         </td>
                     </tr>
@@ -85,7 +85,7 @@ export function About() {
 
               </table>
           </div>
-          <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url('./assets/Eu.jpeg')] bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"></div>
+          <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url('AndersonDev/portfolio/src/assets/Eu.jpeg')] bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"></div>
         </div>
       </div>
     </section>
