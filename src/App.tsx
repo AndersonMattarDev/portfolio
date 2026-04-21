@@ -1,13 +1,19 @@
+import { useState } from 'react';
+
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
-      <header className="bg-dark text-white">
-        <nav className="navbar navbar-expand-lg container">
+      <header className="bg-dark text-white sticky-top">
+        <nav className="navbar navbar-expand-lg  container">
           <a className="navbar-brand text-white fw-bold" href="#home">Portfolio Dev</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+          <button className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div className={`collapse navbar-collapse ${menuOpen ? 'show' : ''}`} id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <a className="nav-link text-white" href="#about">Sobre</a>
@@ -138,7 +144,7 @@ function App() {
                 <p>Envie uma mensagem para conversar sobre seu próximo projeto.</p>
               </div>
               <div className="col-md-4 text-md-end">
-                <a href="mailto:contato@portfolio.dev" className="btn btn-outline-light">contato@portfolio.dev</a>
+                <a href="mailto:andmat7745@gmail.com" className="btn btn-outline-light">andmat7745@gmail.com</a>
               </div>
             </div>
           </div>
