@@ -16,9 +16,9 @@ export default function About() {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        Sou desenvolvedor fullstack com foco em criar aplicações modernas,
-        responsivas e performáticas. Trabalho com React, TypeScript e também
-        atuo no backend com Node.js e Python.
+        Sou desenvolvedor web em formação, mas já atuando na prática: crio, publico e mantenho projetos reais. 
+        Estou finalizando Sistemas para Internet pela Estácio e venho construindo uma base sólida com foco em desenvolvimento 
+        moderno e performance. Tenho domínio avançado em HTML e CSS, e trabalho com JavaScript no dia a dia, principalmente com React + Vite, Node.js e TypeScript em nível intermediário. Também utilizo Git e GitHub como parte essencial do meu fluxo de desenvolvimento.
       </motion.p>
 
       <motion.p
@@ -26,8 +26,11 @@ export default function About() {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.3 }}
       >
-        Busco sempre escrever código limpo, reutilizável e focado em entregar
-        uma boa experiência para o usuário final.
+        Além disso, possuo conhecimentos em Vue.js, PHP, Java e bancos de dados como MySQL, SQLite e MongoDB, o que me permite 
+        transitar entre diferentes stacks. Tenho ainda familiaridade com React Native, Angular e Next.js, ampliando minha 
+        capacidade de atuar em projetos variados, tanto web quanto mobile. Gosto de tirar ideias do papel e transformar em 
+        soluções funcionais. Estou em busca de uma oportunidade em empresa ou freelancer onde eu possa gerar valor de verdade, 
+        evoluir rápido e participar de projetos que façam diferença.
       </motion.p>
 
     </section>

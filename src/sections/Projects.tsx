@@ -1,4 +1,4 @@
-import { projects } from "../data/projects";
+import { projects, type Project } from "../data/projects";
 import { motion } from "framer-motion";
 
 export default function Projects() {
@@ -8,7 +8,7 @@ export default function Projects() {
         <h2>Projetos</h2>
 
         <div className="grid">
-          {projects.map((p, i) => (
+          {projects.map((p: Project, i: number) => (
             <motion.div
               key={i}
               className="card"
@@ -18,7 +18,9 @@ export default function Projects() {
             >
               <h3>{p.title}</h3>
               <p>{p.desc}</p>
-              <a href={p.link} target="_blank">Ver projeto</a>
+              <a href={p.link} target="_blank">
+                Ver projeto
+              </a>
             </motion.div>
           ))}
         </div>

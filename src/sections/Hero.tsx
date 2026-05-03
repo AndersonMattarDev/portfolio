@@ -21,7 +21,8 @@ export default function Hero() {
             transition={{ delay: 0.2 }}
           >
             Crio aplicações modernas com React, Node.js e Python,
-            focadas em performance e experiência do usuário.
+            focadas em performance e experiência do usuário. Também tenho experiência com bancos de dados SQL e NoSQL, 
+            e sou apaixonado por resolver problemas complexos.
           </motion.p>
 
           <motion.a
@@ -46,4 +47,4 @@ export default function Hero() {
       </div>
     </section>
   );
-}
+} 

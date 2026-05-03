@@ -1,4 +1,10 @@
-export const projects = [
+export interface Project {
+  title: string;
+  desc: string;
+  link: `http${string}`;
+}
+
+export const projects: Project[] = [
   {
     title: "Casa de Violeta",
     desc: "Landing page com foco em conversão",
